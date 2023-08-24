@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coding Challenge</title>
+  <link rel="stylesheet" type="text/css" href="main1.css">
+</head>
+<body>
+  <h1><u>Week 0 Class Work</u></h1>
+  <div class="container">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+  </div>
+
+<h2><u>Change Buttons<u></h2>
+  <div class="controls">
+    <button onclick="changeBox1Color()">Change Box 1</button>
+    <button onclick="changeBox2Color()">Change Box 2</button>
+    <button onclick="changeBox3Color()">Change Box 3</button>
+    <button onclick="changeAll()">Change All</button>
+</div>
+
+<h3>Hide Buttons</h3>
+<div class="hide-controls">
+    <button onclick="hideBox('box1')">Hide Box 1</button>
+    <button onclick="hideBox('box2')">Hide Box 2</button>
+    <button onclick="hideBox('box3')">Hide Box 3</button>
+    <button onclick="hideAll()">Hide All</button>
+</div>    
+
+<div class="button-container">
+    <button onclick="resetColors()">Reset Colors</button>
+  </div>
+
+<div class="showbutton-container">
+  <button onclick="showAll()">Show All</button>
+</div>
+  <script src="backend.js"></script>
+</body>
+</html>
